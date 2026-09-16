@@ -1,6 +1,10 @@
-# Exercícios e Projetos de BD - Bancdo de Dados I
+# Projetos de BD - Bancdo de Dados I
+Esse repositório tem como objetivo postar e salvar o projetos da matéria de Bando de Dados - INATEL 2026/2o Semestre.
 
-Grupo
+## Tema:
+O tema do nosso projeto é de uma plataforma de streaming tipo netflix, amazon prime, disney+.
+
+## Grupo:
 Gabriel Fonseca Ferreira - 2193 - GEC
 
-Esse repositório tem como objetivo salvar os exercícios realizado e projetos da matéria de Bando de Dados - INATEL 2026/2o Semestre.
+
