@@ -1,4 +1,4 @@
-# Projetos de BD - Bancdo de Dados I
+# Projetos de BD - Banco de Dados I
 Esse repositório tem como objetivo postar e salvar o projetos da matéria de Bando de Dados - INATEL 2026/2o Semestre.
 
 ## Tema:
