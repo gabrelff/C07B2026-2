@@ -245,7 +245,6 @@ BEGIN
         valor_mensalidade = v_novo_valor
     WHERE id_assinatura = p_id_assinatura;
     
-    -- Retorna os dados em colunas separadas em vez de uma frase de texto
     SELECT p_id_assinatura AS ID_Atualizado, p_novo_plano AS Plano_Escolhido, v_novo_valor AS Novo_Valor_Cobrado;
     
 END $$
@@ -260,7 +259,6 @@ CREATE TRIGGER tr_criar_perfil_padrao
 AFTER INSERT ON Usuario
 FOR EACH ROW
 BEGIN
-    -- O 'NEW.id_usuario' pega o ID do usuário que acabou de ser inserido
     INSERT INTO Perfil (id_usuario, nome_perfil, classificacao_idade)
     VALUES (NEW.id_usuario, 'Meu Perfil', '18');
 END $$
